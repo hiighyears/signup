@@ -80,7 +80,7 @@ button{
     color: aliceblue;
     padding: 10px;
     font-size: 15px;
-    margin: 15px;
+    margin-left: 60px;
     border-radius: 12px;
     width: 200px;
     background-color: black;
@@ -115,7 +115,7 @@ input:focus{
 }
 
 form+p{
-    margin: 20px;
+    margin: 60px;
 }
 
 
