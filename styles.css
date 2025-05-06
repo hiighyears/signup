@@ -25,6 +25,7 @@ body{
     width: 100vw;
     display: flex;
     flex-direction: column;
+    position: relative;
 
 }
 
@@ -38,6 +39,19 @@ body{
     padding-top: 15px;
 }
 
+label {
+    display: block;
+    font-size: small;
+}
+
+legend{
+    position: relative;
+    left: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow:  0 8px 8px rgba(0, 0, 0, 0.2);
+}
 
 h1 {
     padding-left: 20px;
@@ -51,4 +65,47 @@ h1 {
     background-size: contain;
     background-repeat: no-repeat;
   display: inline-block;
+}
+
+fieldset {
+        display: flex ;
+        background-color: wheat;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 40vh;
+        border: none;
+        box-shadow: 0 14px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+button{
+    color: aliceblue;
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 12px;
+    width: 200px;
+    background-color: black;
+    border-color: aliceblue;
+    box-shadow:  0 14px 10px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 0 #999, 2px 2px 0 #777, 3px 3px 0 #555;
+}
+
+.footer {
+    color: antiquewhite;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+input,label{
+    position: relative; 
+    margin-left: 50px;
+}
+input:focus{
+    outline: 2px solid green;
+    border: transparent;
+    box-shadow:0 14px 10px rgba(0, 0, 0, 0.2);
+    
+
 }

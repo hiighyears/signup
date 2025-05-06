@@ -9,6 +9,9 @@
 <body>
     <div class="left_container">
         <div class="logo_card">ORANGE</div>
+        <a href="https://unsplash.com/photos/sliced-orange-fruit-on-brown-wooden-table-9002s2VnOAY" class="footer">
+            pic from unsplash
+        </a>
     
     </div>
     <div class="right_container">   
@@ -18,17 +21,43 @@
              labore amet perferendis officiis veniam quos tempora consequatur et.
         </h1>
 
-        <form action="#" method="post">
+        <form>
             <fieldset>
-                <legend>sign up!</legend>
-               <p>lets doo this!</p>
+                <legend >sign up!</legend>
                <p>
-                   <label for="first_name">FIRST NAME</label>
-                   <input type="text" name="first_name" id="first_name">
+                   <label for="first_name">FIRST NAME :</label>
+                   <input type="text" name="first_name" id="first_name" required>
                </p>
+               <p>
+                <label for="number">NUMBER :</label>
+                <input type="tel" name="number" id="number" minlength=10 maxlength=10 pattern="\d{10}" required>
+            </p>
+
+            <p>
+                <label for="password">PASSWORD :</label>
+                <input type="password" name="password" id="password" required>
+            </p>
+           
+            <p>
+                <label for="last_name">LAST NAME :</label>
+                <input type="text" name="last_name" id="last_name" required>
+            </p>
+            <p>
+                <label for="email">EMAIL :</label>
+                <input type="email" name="email" id="email" required>
+            </p>
+
+
+            <p>
+                <label for="confirm_password">CONFIRM PASSWORD :</label>
+                <input type="password" name="confirm_password" id="confirm_password" required>
+            </p>
+
 
             </fieldset>
+            <button type="submit">submit</button>
         </form>
+        <p>already have an account? <a href="">Log In</a></p>
 
     </div>
 </body>
